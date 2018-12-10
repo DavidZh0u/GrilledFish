@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/module-fish-model/pom.xml" />
+        <option value="$PROJECT_DIR$/api-fish-testapi/pom.xml" />
+        <option value="$PROJECT_DIR$/web-fish-testweb/pom.xml" />
       </list>
     </option>
   </component>

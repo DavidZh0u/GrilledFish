@@ -11,14 +11,7 @@
     <name>GrilledFish</name>
     <description>Demo project for Spring Boot</description>
 
-    <packaging>pom</packaging>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.0.RELEASE</version>
-        <relativePath/>
-    </parent>
-
+    <!-- maven 仓库 私库 -->
     <repositories>
         <repository>
             <id>huazhu.maven</id>
@@ -26,16 +19,32 @@
         </repository>
     </repositories>
 
+    <!-- 子模块描述 -->
     <modules>
         <module>module-fish-model</module>
+        <module>api-fish-testapi</module>
+        <module>web-fish-testweb</module>
     </modules>
 
+    <!-- 子模块依赖 -->
     <dependencyManagement>
         <dependencies>
 
             <dependency>
                 <groupId>GrilledFish</groupId>
                 <artifactId>module-fish-model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>GrilledFish</groupId>
+                <artifactId>api-fish-testapi</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>GrilledFish</groupId>
+                <artifactId>web-fish-testweb</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -53,6 +62,7 @@
         <start-class>com.fish.Application</start-class>
     </properties>
 
+    <!-- 其他jar 依赖 -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
