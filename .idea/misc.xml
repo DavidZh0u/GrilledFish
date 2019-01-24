@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/module-fish-model/pom.xml" />
         <option value="$PROJECT_DIR$/api-fish-testapi/pom.xml" />
         <option value="$PROJECT_DIR$/web-fish-testweb/pom.xml" />
+        <option value="$PROJECT_DIR$/quartz-fish-server/pom.xml" />
+        <option value="$PROJECT_DIR$/poi-fish-model/pom.xml" />
+        <option value="$PROJECT_DIR$/01-provider-8081/pom.xml" />
       </list>
     </option>
   </component>
