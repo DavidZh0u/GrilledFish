@@ -1,13 +1,13 @@
-package com.fish.provider;
+package com.fish.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class ConsumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ConsumerApplication.class, args);
     }
 
 }

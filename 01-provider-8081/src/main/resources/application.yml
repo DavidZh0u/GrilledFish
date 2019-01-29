@@ -1,0 +1,35 @@
+server:
+  port: 8081
+
+spring:
+  jpa:
+    # 应用启动时是否自动建表，默认为false
+    generate-ddl: true
+    # 是否在控制台显示sql语句，默认为false
+    show-sql: true
+    # 设置应用启动时不重新建表
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/scdb?useUnicode=true&amp;characterEncoding=utf-8
+    username: admin
+    password: 1qaz2wsx
+
+logging:
+  #设置日志输出格式
+  pattern:
+    console: level-%level %msg%n
+  level:
+    # spring boot 启动时的日志级别
+    root: info
+    # hibernate 运行日志级别
+    org.hibernate: info
+    # 在show-sql为true时显示sql中的动态参数值
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+    # 在show-sql为true时显示查询结果
+    org.hibernate.type.descriptor.sql.BasicExtractor: trace
+    # 控制自己的代码运行时显示的日志级别
+    com.fish.provider: debug

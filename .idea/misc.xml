@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/quartz-fish-server/pom.xml" />
         <option value="$PROJECT_DIR$/poi-fish-model/pom.xml" />
         <option value="$PROJECT_DIR$/01-provider-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/01-consumer-8080/pom.xml" />
       </list>
     </option>
   </component>

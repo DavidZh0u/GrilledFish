@@ -14,7 +14,7 @@ public interface DepartService {
 
     boolean removeDepartById(int id);
 
-    boolean modifyDepart(int id ,Depart depart);
+    boolean modifyDepart(Depart depart);
 
     Depart getDepartById(int id);
 

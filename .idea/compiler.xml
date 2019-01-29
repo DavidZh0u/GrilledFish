@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="01-consumer-8080" />
         <module name="01-provider-8081" />
         <module name="api-fish-testapi" />
         <module name="GrilledFish" />
