@@ -11,6 +11,10 @@ spring:
     hibernate:
       ddl-auto: none
 
+    # 指定当前微服务对外（提供者）暴露的名称
+  application:
+    name: zdwmsc-provider-departs
+
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
@@ -33,3 +37,19 @@ logging:
     org.hibernate.type.descriptor.sql.BasicExtractor: trace
     # 控制自己的代码运行时显示的日志级别
     com.fish.provider: debug
+
+eureka:
+  client:
+    # 指定Eureka服务注册中心
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+  # 指定微服务名称
+#  instance:
+#    instance-id: zdw-msc-provider-8081
+info:
+  company.name: 华住酒店集团
+  company.addr: 上海·中国
+  company.tel: 1101010101
+  app.name: zdw-msc
+  app.desc: mic-server-cloud
+  author: DavidZhou
