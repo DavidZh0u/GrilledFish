@@ -42,7 +42,7 @@ eureka:
   client:
     # 指定Eureka服务注册中心
     service-url:
-      defaultZone: http://localhost:8000/eureka
+      defaultZone: http://eureka8100.com:8100/eureka,http://eureka8200.com:8200/eureka,http://eureka8300.com:8300/eureka
   # 指定微服务名称
 #  instance:
 #    instance-id: zdw-msc-provider-8081
