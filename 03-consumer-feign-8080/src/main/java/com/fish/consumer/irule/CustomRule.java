@@ -31,10 +31,9 @@ public class CustomRule implements IRule {
     public Server choose(Object o) {
         // 获取所有可用的提供者
         List<Server> servers = lb.getReachableServers();
-        // 获取所有排除了指定端口号的提供者
+
         List<Server> availableServers = this.getAvailableServers(servers);
 
-        // 从剩余的提供者中随机获取可用的提供者
         return this.getAvailableRandomServers(availableServers);
     }
 
