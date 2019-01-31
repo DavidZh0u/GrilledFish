@@ -1,0 +1,11 @@
+spring:
+  application:
+    # 指定微服务对外暴露的名称
+    name: zdwmsc-consumer-departs
+
+eureka:
+  client:
+    # 指定Eureka服务注册中心
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+#      defaultZone: http://eureka8100.com:8100/eureka,http://eureka8200.com:8200/eureka,http://eureka8300.com:8300/eureka

@@ -14,6 +14,9 @@
         <module name="01-provider-8081" />
         <module name="02-consumer-8080" />
         <module name="02-provider-8081" />
+        <module name="02-provider-8082" />
+        <module name="02-provider-8083" />
+        <module name="03-consumer-feign-8080" />
         <module name="GrilledFish" />
       </profile>
     </annotationProcessing>
