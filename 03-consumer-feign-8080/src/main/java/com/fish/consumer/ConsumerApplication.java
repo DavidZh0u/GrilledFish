@@ -32,6 +32,7 @@ public class ConsumerApplication {
         //指定要排除的server的端口号
         List<Integer> posts = new ArrayList<>();
         posts.add(8082);
+        //自定义负载均衡算法
         return new CustomRule(posts);
     }
 
