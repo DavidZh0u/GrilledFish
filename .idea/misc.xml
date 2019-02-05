@@ -16,6 +16,9 @@
         <option value="$PROJECT_DIR$/03-consumer-feign-8080/pom.xml" />
         <option value="$PROJECT_DIR$/02-provider-8082/pom.xml" />
         <option value="$PROJECT_DIR$/02-provider-8083/pom.xml" />
+        <option value="$PROJECT_DIR$/05-consumer-hystrix-8080/pom.xml" />
+        <option value="$PROJECT_DIR$/05-consumer-hystrix-feign-8080/pom.xml" />
+        <option value="$PROJECT_DIR$/06-consumer-hystrix-feign-8080/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -24,7 +27,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
