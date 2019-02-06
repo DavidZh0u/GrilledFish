@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/05-consumer-hystrix-8080/pom.xml" />
         <option value="$PROJECT_DIR$/05-consumer-hystrix-feign-8080/pom.xml" />
         <option value="$PROJECT_DIR$/06-consumer-hystrix-feign-8080/pom.xml" />
+        <option value="$PROJECT_DIR$/00-zuul-9000/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

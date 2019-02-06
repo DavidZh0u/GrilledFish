@@ -1,0 +1,26 @@
+server:
+  port: 9000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+
+spring:
+  application:
+    name: zdwmsc-zuul-departs
+
+# 设置zuul路由规则
+zuul:
+  # 设置微服务名称的替换规则
+  routes:
+    # 指定要被替换的微服务名称
+    somedepart.serviceId: zdwmsc-consumer-departs
+    # 指定替换的名称
+    somedepart.path: /condep/**
+  # 忽略服务名，访问微服务不可用，但是代替名任然可用
+#  ignored-services: zdwmsc-consumer-departs
+  ignored-services: "*"
+  prefix: /depart
+  # 访问路径
+  # http://zuulgateway.com:9000/depart/condep/consumer/depart/get/2
