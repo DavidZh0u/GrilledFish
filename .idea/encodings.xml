@@ -2,10 +2,12 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/00-configserver-9999" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/00-eurekaserver-8000" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/00-eurekaserver-8100" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/00-eurekaserver-8200" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/00-eurekaserver-8300" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/00-eurekaserver-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/00-zuul-9000" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/01-consumer-8080" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/01-provider-8081" charset="UTF-8" />
@@ -13,9 +15,11 @@
     <file url="file://$PROJECT_DIR$/02-provider-8081" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02-provider-8082" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02-provider-8083" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-provider-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-consumer-feign-8080" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/05-consumer-hystrix-8080" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/05-consumer-hystrix-feign-8080" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-consumer-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-consumer-hystrix-feign-8080" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

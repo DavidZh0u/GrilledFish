@@ -1,0 +1,16 @@
+server:
+  port: 9999
+
+# 指定当前工程所关联的git远程库地址
+spring:
+  application:
+    name: myConfigs
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/DavidZh0u/${spring.application.name}.git
+          username: DavidZh0u
+          password: admin0104130914
+
+

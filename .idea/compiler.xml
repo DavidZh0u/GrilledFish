@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="00-configserver-9999" />
         <module name="00-eurekaserver-8000" />
         <module name="00-eurekaserver-8100" />
         <module name="00-eurekaserver-8200" />
         <module name="00-eurekaserver-8300" />
+        <module name="00-eurekaserver-config" />
         <module name="00-zuul-9000" />
         <module name="01-consumer-8080" />
         <module name="01-provider-8081" />
@@ -17,9 +19,11 @@
         <module name="02-provider-8081" />
         <module name="02-provider-8082" />
         <module name="02-provider-8083" />
+        <module name="02-provider-config" />
         <module name="03-consumer-feign-8080" />
         <module name="05-consumer-hystrix-8080" />
         <module name="05-consumer-hystrix-feign-8080" />
+        <module name="06-consumer-config" />
         <module name="06-consumer-hystrix-feign-8080" />
         <module name="GrilledFish" />
       </profile>
@@ -34,10 +38,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="00-configserver-9999" options="-parameters" />
       <module name="00-eurekaserver-8000" options="-parameters" />
       <module name="00-eurekaserver-8100" options="-parameters" />
       <module name="00-eurekaserver-8200" options="-parameters" />
       <module name="00-eurekaserver-8300" options="-parameters" />
+      <module name="00-eurekaserver-config" options="-parameters" />
       <module name="00-zuul-9000" options="-parameters" />
       <module name="01-consumer-8080" options="-parameters" />
       <module name="01-provider-8081" options="-parameters" />
@@ -45,9 +51,11 @@
       <module name="02-provider-8081" options="-parameters" />
       <module name="02-provider-8082" options="-parameters" />
       <module name="02-provider-8083" options="-parameters" />
+      <module name="02-provider-config" options="-parameters" />
       <module name="03-consumer-feign-8080" options="-parameters" />
       <module name="05-consumer-hystrix-8080" options="-parameters" />
       <module name="05-consumer-hystrix-feign-8080" options="-parameters" />
+      <module name="06-consumer-config" options="-parameters" />
       <module name="06-consumer-hystrix-feign-8080" options="-parameters" />
     </option>
   </component>
